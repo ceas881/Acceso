@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <script>
+        // Función que se ejecuta al hacer clic en "Iniciar sesión"
+        function iniciarSesion() {
+            var usuario = document.getElementById("usuario").value;
+            var contraseña = document.getElementById("contraseña").value;
+
+            if (usuario === "" || contraseña === "") {
+                alert("Por favor, ingresa tu usuario y contraseña.");
+            } else {
+                alert("Inicio de sesión exitoso. Bienvenido, " + usuario + "!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Formulario de Inicio de Sesión</h2>
+    <form onsubmit="event.preventDefault(); iniciarSesion();">
+        <label for="usuario">Usuario:</label><br>
+        <input type="text" id="usuario" name="usuario"><br><br>
+
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="password" id="contraseña" name="contraseña"><br><br>
+
+        <button type="submit">Iniciar sesión</button>
+    </form>
+</body>
+</html>

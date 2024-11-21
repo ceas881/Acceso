@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagenes/log.ico" type="image/x-icon">
+
+</head>
+<body>
+    <br>
+    <br>
+    <header>
+        <h1>Sistema de Control de Ingreso y Salida</h1>
+    </header>
+    <div class="containerR">
+        <section class="entry-form">
+            <h2>Registrar Ingreso</h2>
+            <form action="histirial.html" method="post">
+                <label for="employee-id">Documento de Empleado:</label>
+                <input type="number" maxlength="9" id="employee-id" name="employee-id" required>
+                <br><br>
+                <button class="btn" type="submit">Registrar Ingreso</button>
+            </form>
+        </section>
+
+        <section class="exit-form">
+            <h2>Registrar Salida</h2>
+            <form action="Product.html" method="post">
+                <label for="employee-id-exit">Documento de Empleado:</label>
+                <input type="number" id="employee-id-exit" name="employee-id-exit" required>
+                <br><br>
+                <button class="btn" type="submit">Registrar Salida</button>
+            </form>
+        </section>
+        <br>
+        <br>
+        <br>
+        <form action="INICIO.html" method="post">
+            <button class="btn" type="submit">INICIO</button>
+            <br>
+            <br>
+            <a href="histirial.html" class="btn" type="submit">Historial de Empleados</a>
+        </form>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <p>&copy; 2024 Sistema de Control de Ingreso y Salida</p>
+        </footer>
+    </div>
+</body>
+</html>

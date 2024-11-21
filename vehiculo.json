@@ -1,0 +1,13 @@
+({
+    "placa": "ABC123",
+    "nro_serie": "1234567890",
+    "modelo": "Corolla",
+    "marca": "Toyota",
+    "kilometraje": "10000",
+    "tipo": "Sedan",
+    "color": "Rojo",
+    "color": "Rojo",
+    "año": 2020,
+    "precio": 15000,
+    "disponible": true
+})
